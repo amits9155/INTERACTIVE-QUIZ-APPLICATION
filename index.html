@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Interactive Quiz App</h1>
+      
+      <!-- Subject Selection Screen -->
+      <div id="subject-screen" class="screen active">
+        <h2>Select a Subject Category</h2>
+        
+        <!-- Dashboard Statistics -->
+        <div class="stats-container">
+          <div class="stat-card">
+            <h3>Total Subjects</h3>
+            <div class="stat-value" id="total-subjects">3</div>
+          </div>
+          <div class="stat-card">
+            <h3>Total Quizzes</h3>
+            <div class="stat-value" id="total-quizzes">9</div>
+          </div>
+          <div class="stat-card">
+            <h3>Total Questions</h3>
+            <div class="stat-value" id="total-questions">90</div>
+          </div>
+        </div>
+        
+        <div id="subject-container" class="btn-container">
+          <!-- Subject buttons will be added here dynamically -->
+        </div>
+      </div>
+      
+      <!-- Quiz Selection Screen -->
+      <div id="quiz-selection-screen" class="screen">
+        <h2 id="selected-subject-title">Subject Quizzes</h2>
+        
+        <!-- Subject Progress -->
+        <div class="stats-container">
+          <div class="stat-card">
+            <h3>Available Quizzes</h3>
+            <div class="stat-value" id="available-quizzes">0</div>
+          </div>
+          <div class="stat-card">
+            <h3>Questions per Quiz</h3>
+            <div class="stat-value">10</div>
+          </div>
+        </div>
+        
+        <div id="quiz-container" class="btn-container">
+          <!-- Quiz buttons will be added here dynamically -->
+        </div>
+        <button id="back-to-subjects-btn" class="nav-btn">
+          <i class="fas fa-arrow-left"></i> Back to Subjects
+        </button>
+      </div>
+      
+      <!-- Quiz Screen -->
+      <div id="quiz-screen" class="screen">
+        <div id="timer">Time Left: 10s</div>
+        
+        <!-- Progress bar -->
+        <div class="progress-container">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        
+        <div class="quiz">
+          <h2 id="question">Question goes here</h2>
+          <div id="answer-button">
+            <!-- Answer buttons will be added here dynamically -->
+          </div>
+          <button id="next-btn">Next <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <button id="back-to-quizzes-btn" class="nav-btn">
+          <i class="fas fa-list"></i> Back to Quizzes
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
