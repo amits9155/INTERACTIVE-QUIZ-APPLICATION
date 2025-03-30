@@ -1,3 +1,20 @@
+# INTERACTIVE-QUIZ-APPLICATION
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: AMIT KUMAR
+
+*INTERN ID*: CT04WWL
+
+*DOMAIN*: FRONTEND WEB DEVELOPMENT
+
+*DURATION*: 4 WEEKS 
+
+*MENTOR*: NEELA SANTOSH
+
+***********************************************************************************************************************************************
+
+
+
 # 🎓 Interactive Quiz Dashboard
 
 A modern, feature-rich interactive quiz application built with HTML, CSS, and JavaScript. Test your knowledge across multiple subjects with an engaging and visually appealing user experience.
