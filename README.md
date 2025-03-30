@@ -2,7 +2,7 @@
 
 A modern, feature-rich interactive quiz application built with HTML, CSS, and JavaScript. Test your knowledge across multiple subjects with an engaging and visually appealing user experience.
 
-![Interactive Quiz Dashboard](https://via.placeholder.com/800x400?text=Interactive+Quiz+Dashboard)
+![Interactive Quiz Dashboard](https://github.com/amits9155/INTERACTIVE-QUIZ-APPLICATION/blob/41e47011c91e5a8fef3e9f9059d209918f968a98/screenshots/Screenshot%202025-03-30%20125516.png)
 
 ## ✨ Features
 
